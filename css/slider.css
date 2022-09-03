@@ -1,0 +1,48 @@
+/* slider box */
+#slider{
+    overflow: hidden;
+}
+#slider-box{
+    position: relative;
+    display:flex;
+    width:6128px;
+    animation: slider 20s infinite;
+
+}
+
+#slider-box img{
+    width: 1532px;
+    height: 606px
+}
+
+@keyframes slider {
+    0%
+    {
+        left: 0px;
+    }
+    20%{
+        left: 0px;
+    }
+    25%{
+        left: -1532px;
+    }
+    45%{
+        left: -1532px;
+    }
+    50%{
+        left: -3064px;
+    }
+    70%{
+        left: -3064px;
+    }
+    75%{
+        left: -4596px;
+    }
+    95%{
+        left: -4596px;
+    }
+    100%{
+        left: -6128px;
+    }
+
+}

@@ -1,0 +1,11 @@
+.about pre{
+    font-family: 'Baloo Bhai',cursive ;
+    font-size:18px;
+    text-align:center;
+    padding-top:10px;
+}
+.ah {
+    text-align: center;
+    position: relative;
+    right: -27px;
+}

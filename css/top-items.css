@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    padding: 0.5em ;
+}
+.top-category{
+    /* border: 2px solid black; */
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.top-category-items{
+    width: 350px;
+    height: 245px;
+    margin-top: 20px;
+    box-shadow: 0 14px 19px rgba(22,0,0,255);
+    transition: transform 1s;
+}
+.top-category-items:hover{
+    transform: scale(1.05);
+}
+
+.top-category-items img{
+    width: 100%;
+}
+.star{
+    text-align: center;
+    color:rgba(247, 138, 37, 0.93);
+}
+.title{
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Baloo Bhai',cursive ;
+}
